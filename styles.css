@@ -47,3 +47,27 @@ body, html {
   box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.2);
   transform: translateY(-7px);
 }
+
+/* Pour les petits écrans */
+@media (max-width: 768px) {
+  .gpt-button {
+    padding: 5%;
+    font-size: 4vw;
+  }
+}
+
+/* Pour les écrans moyens */
+@media (min-width: 769px) and (max-width: 1200px) {
+  .gpt-button {
+    padding: 3%;
+    font-size: 3vw;
+  }
+}
+
+/* Pour les grands écrans */
+@media (min-width: 1201px) {
+  .gpt-button {
+    padding: 2%;
+    font-size: 2vw;
+  }
+}
