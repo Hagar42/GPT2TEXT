@@ -33,7 +33,6 @@ body, html {
   background-color: #2e0854;
   color: white;
   padding: 2%; /* Responsive padding */
-  font-size: 2vw; /* Responsive font size */
   border: none;
   border-radius: 50px;
   text-decoration: none;
@@ -53,7 +52,7 @@ body, html {
 @media (max-width: 768px) {
   .gpt-button {
     padding: 5%;
-    font-size: 4vw;
+    font-size: 6vw;
   }
 }
 
@@ -61,7 +60,7 @@ body, html {
 @media (min-width: 769px) and (max-width: 1200px) {
   .gpt-button {
     padding: 3%;
-    font-size: 3vw;
+    font-size: 5vw;
   }
 }
 
@@ -69,7 +68,7 @@ body, html {
 @media (min-width: 1201px) {
   .gpt-button {
     padding: 2%;
-    font-size: 2vw;
+    font-size: 4vw;
   }
 }
 
