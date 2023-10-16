@@ -6,6 +6,11 @@ body, html {
   overflow: hidden; /* Pour éviter les scrollbars */
 }
 
+stripe-pricing-table {
+  z-index: 2;  /* Assure que la table est au-dessus du background mais sous les autres éléments interactifs */
+  position: relative;  /* Nécessaire pour que z-index fonctionne */
+}
+
 .wrapper {
   position: relative;
   width: 100%;
