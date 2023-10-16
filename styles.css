@@ -54,27 +54,3 @@ stripe-pricing-table {
   transform: translateY(-7px);
 }
 
-/* Pour les petits écrans */
-@media (max-width: 768px) {
-  .gpt-button {
-    padding: 5%;
-    font-size: 6vw;
-  }
-}
-
-/* Pour les écrans moyens */
-@media (min-width: 769px) and (max-width: 1200px) {
-  .gpt-button {
-    padding: 3%;
-    font-size: 5vw;
-  }
-}
-
-/* Pour les grands écrans */
-@media (min-width: 1201px) {
-  .gpt-button {
-    padding: 2%;
-    font-size: 4vw;
-  }
-}
-
