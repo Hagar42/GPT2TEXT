@@ -8,7 +8,6 @@ body, html {
 
 stripe-pricing-table {
   z-index: 2;  /* Assure que la table est au-dessus du background mais sous les autres éléments interactifs */
-  border: 3px solid red; /* Ajoute une bordure pour le voir clairement */
   position: relative;  /* Nécessaire pour que z-index fonctionne */
 }
 
