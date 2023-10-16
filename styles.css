@@ -6,7 +6,7 @@ body {
 .container {
     width: 80%;
     margin: 0 auto;
-    background-color: #fff;
+    background-color: #421866;
     padding: 20px;
 }
 
@@ -19,6 +19,7 @@ header {
 .logo {
     width: 100px;
     height: auto;
+    align-items: center;
 }
 
 nav ul {
@@ -36,16 +37,8 @@ nav a {
 }
 
 nav a:hover {
-    background-color: #333;
+    background-color: #421866;
     color: #fff;
 }
 
-#particles-js {
-    position: fixed;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    z-index: -1;
-}
 
