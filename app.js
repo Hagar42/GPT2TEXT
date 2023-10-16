@@ -34,3 +34,11 @@ function updateGradient() {
 }
 
 updateGradient();
+
+document.addEventListener('stripe-pricing-table-ready', function() {
+  const pricingTable = document.querySelector('stripe-pricing-table');
+  pricingTable.addEventListener('checkout-clicked', function(event) {
+    const planId = event.detail.planId;
+    // Ton code pour gérer le clic sur le bouton de paiement ici, comme rediriger l'utilisateur vers une page de paiement
+  });
+});
